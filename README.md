@@ -6,15 +6,15 @@
 
 Далее открываем свойства приложения DVDShop/src/main/resources/application.properties
 
-spring.datasource.url - настраиваем подключение к БД.
+spring.datasource.url - настраиваем подключение к БД. (нужно создать БД)
 
 spring.datasource.username - указываем пользователя.
 
-spring.datasource.password -указываем пароль.
+spring.datasource.password -указываем пароль пользователя.
 
-upload.path - указываем куда будут загружаться картинки.
+upload.path - указываем путь, куда будут загружаться картинки.
 
-Дальше генирируем проект с помощью maven для этого: в терминале заходим в папку проекта и набираем следующее clean install -f pom.xml.
+Дальше генирируем проект с помощью maven для этого: в терминале заходим в папку проекта и набираем следующую команду: clean install -f pom.xml.
 
 У нас генерируется .jar файл в папке target.
 
